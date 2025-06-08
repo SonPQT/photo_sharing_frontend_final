@@ -1,0 +1,183 @@
+.user-photo {
+  padding-top: 20px;
+  padding-left: 20px;
+}
+.user-photo .photo-item {
+  border: 2px solid #e0e0e0;
+  border-radius: 12px;
+  padding: 18px;
+  margin-bottom: 24px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.user-photo .photo-item:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+.user-photo .photo-item .photo-image img {
+  object-fit: cover;
+  border-radius: 12px;
+  transition: transform 0.3s ease;
+}
+
+.user-photo .photo-item .photo-image img:hover {
+  transform: scale(1.05);
+}
+.user-photo .photo-item .photo-date {
+  font-size: 14px;
+  color: #666;
+  margin-top: 10px;
+}
+.user-photo .photo-item .comment-space {
+  margin-top: 10px;
+}
+.user-photo .photo-item .comment-space .comment-headline {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.user-photo .photo-item .comment-space .comment-list {
+  margin-top: 10px;
+}
+.user-photo .photo-item .comment-space .comment-list .comment-item {
+  margin-bottom: 15px;
+}
+.user-photo
+  .photo-item
+  .comment-space
+  .comment-list
+  .comment-item
+  .comment-content-wrapper {
+  background-color: #f0f2f5;
+  border-radius: 18px;
+  padding: 8px 12px;
+  display: inline-block;
+  max-width: 100%;
+}
+.user-photo
+  .photo-item
+  .comment-space
+  .comment-list
+  .comment-item
+  .comment-author {
+  font-weight: bold;
+  margin-bottom: 2px;
+}
+.user-photo
+  .photo-item
+  .comment-space
+  .comment-list
+  .comment-item
+  .comment-author
+  a {
+  color: #050505;
+  text-decoration: none;
+}
+.user-photo
+  .photo-item
+  .comment-space
+  .comment-list
+  .comment-item
+  .comment-author
+  a:hover {
+  text-decoration: underline;
+}
+.user-photo
+  .photo-item
+  .comment-space
+  .comment-list
+  .comment-item
+  .comment-content {
+  color: #050505;
+  font-size: 15px;
+}
+.user-photo
+  .photo-item
+  .comment-space
+  .comment-list
+  .comment-item
+  .comment-date {
+  font-size: 12px;
+  color: #65676b;
+  margin-top: 4px;
+  margin-left: 12px;
+}
+
+.comment-space .comment-input {
+  margin-top: 16px;
+}
+.comment-space .comment-input label {
+  display: block;
+  margin-bottom: 5px;
+  color: #555;
+  font-weight: 500;
+}
+.comment-space .comment-input input {
+  width: 100%;
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  font-size: 14px;
+  box-sizing: border-box;
+  margin-bottom: 8px;
+  background-color: #f0f2f5;
+}
+.comment-space .comment-input input:focus {
+  outline: none;
+  border-color: #1877f2;
+  background-color: white;
+}
+.comment-space .comment-input .btn {
+  border: 0px;
+  font-weight: 600;
+  background-color: #1e88e5;
+  color: white;
+  padding: 10px 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.comment-space .comment-input .btn:hover {
+  background-color: #1565c0;
+  transform: scale(1.05);
+}
+.comment-space .comment-input .btn:hover {
+  background-color: #166fe5;
+}
+
+.user-photo .add-photo {
+  margin-bottom: 20px;
+}
+
+.user-photo .add-photo .photo-input {
+  display: none;
+}
+
+.photo-upload-label {
+  padding: 12px 20px;
+  background-color: #4caf50;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  white-space: nowrap;
+  display: inline-block;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.photo-upload-label:hover {
+  background-color: #388e3c;
+  transform: scale(1.1);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+.photo-upload-label:hover {
+  background-color: #2e7d32;
+  transform: scale(1.05);
+}
+
+.photo-upload-label:hover {
+  background-color: #218838;
+}
